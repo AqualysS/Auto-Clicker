@@ -19,7 +19,7 @@ def auto_clicker():
     nb_clics = 0
     
     print("L'autoclicker va démarrer dans 3 secondes. Placez votre curseur à l'endroit souhaité.")
-    fenetre.after(3000, launch_clicks)  # Attendre 3 secondes avant de démarrer
+    fenetre.after(1000, launch_clicks)  # Attendre 1 secondes avant de démarrer
     
 def launch_clicks():
     global running, nb_clics
